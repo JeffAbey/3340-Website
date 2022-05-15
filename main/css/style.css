@@ -1,0 +1,504 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  	background-image: url('../pictures/so-white.png');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+h1 {
+	text-align: center;  
+}
+
+a {
+    text-decoration: none;
+}
+
+.logoimg {
+    position: absolute;
+    top: 60%;
+    margin-top: -30px;
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
+    margin-left: 50px;
+  	background-color: white;
+  	border-radius: 50px;
+  	opacity: 0.9;
+}
+
+.logoimg:hover {
+	opacity: 1;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 100px;
+    color: white;
+    font-size: 35px;
+    line-height: 65px;
+    font-weight: bold;
+  	opacity: 0.9;
+}
+
+.logo:hover {
+	opacity: 1;
+}
+
+#nav {
+  	overflow: hidden;
+    width: 100%;
+    margin: auto;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #868B78;
+}
+
+#nav ul {
+    float: right;
+    margin-right: 10px;
+}
+
+#nav ul li {
+  	display: inline-block;
+    line-height: 65px;
+    margin: 0 10px;
+}
+
+#nav ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#nav ul li a:hover {
+    color: #D6D1C3;
+}
+
+#nav ul li button {
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#nav ul li img {
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#nav ul li img:hover {
+    opacity: 1;
+}
+
+.content h1{
+  	overflow: hidden;
+	font-weight: normal;
+  	font-size: 25px;
+}
+
+.content audio, video {
+  	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 65%;
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.brain {
+  	border: 0px none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  	height: 700px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.model-content {
+    float: center;
+    text-align: center;
+    background-color: #868B78;
+    margin: 5% auto auto auto;
+    border: 1px solid #868B78;
+    width: 40%;
+    border-radius: 4px;
+}
+
+.model-content a {
+	color: white;  
+}
+
+.model-content h1 {
+    color: white;
+}
+
+.model-content label {
+    text-align: left;
+    color: white;
+}
+
+.model-content input {
+    float: center;
+    font-size: 15px;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #D6D1C3;
+}
+
+.model-content input[type=submit] {
+	font-size: 17px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: #D6D1C3;
+    border: none;
+    color: #868B78;
+  	width: 100px;
+}
+
+.model-content input[type=submit]:hover {
+	color: white;  
+}
+
+.loginbn {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.loginbn:hover {
+    color: white;
+    opacity: 1;
+}
+
+.signupbn {
+    background-color: #D6D1C3;
+    border: none;
+    color: #868B78;
+}
+
+.signupbn:hover {
+    color: white;
+    opacity: 1;
+}
+
+#signup {
+	  margin: 2.5% auto auto auto;
+}
+
+#facts {
+  	text-align: center;
+	background-color: #D6D1C3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 1px solid;
+    padding: 50px;
+}
+
+#facts h3, h4{  
+	font-weight: normal;
+}
+
+#facts table, th, td {
+	margin-left: auto;
+    margin-right: auto;
+  	width: 40%;
+  	border: 1px solid white;
+  	background-color: #868B78;
+  	font-size: 20px;
+  	border-collapse: collapse;
+  	padding: 5px;
+}
+
+#cart {
+  	text-align: center;
+	background-color: #D6D1C3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 1px solid;
+    padding: 50px;
+}
+
+#cart h3, h4{  
+	font-weight: normal;
+}
+
+#cart th {
+	background-color: #868B78;
+  	border: 2px solid black;
+}
+
+#cart table, th, td {
+	margin-left: auto;
+    margin-right: auto;
+  	width: 50%;
+  	border: 2px solid #868B78;
+  	background-color: white;
+  	font-size: 20px;
+  	border-collapse: collapse;
+  	padding: 10px;
+}
+
+#cart button {
+  	background-color: white;
+  	border: none;
+	font-size: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#cart button:hover {
+  	background-color: #D6D1C3;
+  	color: white;
+}
+
+#cart p {
+	text-align: center;  
+}
+
+#courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #D6D1C3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 1px solid;
+    padding: 50px;
+}
+
+#profile {
+	text-align: center;
+	background-color: #D6D1C3;
+    margin-left: auto;
+    margin-right: auto;
+  	margin-top: auto;
+  	margin-bottom: auto;
+    width: 35%;
+  	height: 60%;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#profile h1 {
+    color: #868B78;
+}
+
+#profile label {
+    text-align: left;
+    color: black;
+}
+
+#profile input {
+    float: center;
+    font-size: 15px;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #D6D1C3;
+}
+
+#profile input[type=submit] {
+	font-size: 17px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: #868B78;
+    border: none;
+    color: white;
+  	width: 100px;
+}
+
+#profile input[type=submit]:hover {
+  	background-color: white;
+	color: #868B78;  
+}
+
+.course {
+	color: white;
+    margin-bottom: 30px;
+    background-color: white;
+    width: 30%;
+}
+
+.course img {
+    padding: 10px;
+    width: 100%;
+}
+
+.coursedetails {
+  	height: 225px;
+    line-height: 150%;
+    padding: 10px;
+    background-color: #596041;
+}
+
+.coursedetails h2 {
+  	margin-left: 5%;
+  	font-weight: bold;
+  	color: white;
+	line-height: 150%;  
+}
+
+.coursedetails h3, h4 {
+  	margin-right: 5%;
+  	text-align: right;
+  	font-weight: normal;
+	line-height: 150%;   
+}
+    
+
+.coursedetails p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.courseredirect {
+  	width: 100%;
+  	text-align: center;
+	font-size: 17px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    color: black;
+}  
+
+.courseredirect:hover {
+	background-color: black;
+  	color: white;
+}
+
+.addtocart {
+	font-size: 17px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: black;
+    border: none;
+    color: #868B78;
+}
+
+.coursepage img {
+  	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.coursepage button{
+  	font-size: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+	float: right;
+  	margin-right: 5%;
+    background-color: #868B78;
+    border: none;
+    color: #D6D1C3;
+}
+
+.coursepage button:hover {
+	color: white;
+    opacity: 1;
+}
+
+#course_page {
+	background-color: #D6D1C3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 1px solid;
+    padding: 50px;
+}
+
+.abouttext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  	line-height: 150%; 
+}
+
+.abouttext h2 {
+	margin-bottom: 3px;
+}
+
+.abouttext p{
+  	width: 90%;
+	margin-left: 30px;
+}
+
+#footer {
+    padding: 20px;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: #828073;
+    text-align: center;
+}
+
+#footer a {
+	color: white; 
+}
+
+#footer2 {
+  	position: fixed;
+    padding: 20px;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: #828073;
+    text-align: center;
+}
+
+#footer2 a {
+	color: white; 
+}
+@media screen  and (max-width: 8s00px) {
+
+}
